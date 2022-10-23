@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="redes2.ico">
+    <link rel="stylesheet" href="normal.css">
+    <link rel="stylesheet" href="animations.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <style>
@@ -26,7 +28,9 @@
 <nav class="w3-sidebar w3-purple w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
     <div class="w3-container">
-      <img src="images/martim.png" class="w3-image">
+      <a href="https://github.com/Louraes202" target="_blank">
+        <img src="images/martim.png" class="w3-image grow" id="sitelogo" class="grow">
+      </a>
       <h3 class="w3-padding-16"><b>Martim<br>Loureiro</b></h3>
     </div>
     <div class="w3-bar-block">
@@ -36,6 +40,15 @@
       <a href="#comofuncionam" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Como funcionam?</a> 
       <a href="#exemplos" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Exemplo</a> 
       <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    </div>
+
+    <!-- Icones com hiperligações -->
+    <div id="hyperlinks"> 
+      <img src="images/github2.png" class="hyperlogo">
+      <img src="images/instagram.png" class="hyperlogo">
+      <img src="images/facebook2.png" class="hyperlogo">
+      <img src="images/github2.png" class="hyperlogo">
+      <img src="images/github2.png" class="hyperlogo">
     </div>
   </nav>
 
@@ -107,7 +120,7 @@
       Em todas as transmissões existem um <b>emissor</b>, um <b>recetor</b>, um <b>meio de transmissão</b> e a mensagem a ser transmitida
       no seu respetivo <b>idioma</b>.
     </p>
-    <img src="images/emissorrecetor.png" class="w3-image">
+    <img src="images/emissorrecetor.png" class="w3-image center">
     <p>Para a mensagem ser recebida e <b>compreendida</b> pelo recetor, é preciso os dois comunicarem-se através
       do mesmo idioma. Existem vários fatores como a qualidade do meio de transmissão e o tipo de informação que 
       vão garantir a eficiência da transmissão de uma determinada mensagem neste processo.
@@ -210,7 +223,7 @@
       <p>Lorem ipsum qualquer coisa.</p>
 
     <!--  -->
-    <h3 class="w3-xlarge w3-text-purple"><b>Transmissão por baseband e broadband.</b></h1> 
+    <h3 class="w3-xlarge w3-text-purple"><b>Transmissão por baseband e broadband</b></h1> 
       <p>Lorem ipsum qualquer coisa.</p>
 
     <!--  -->
@@ -240,7 +253,7 @@
   <div class="w3-container" id="contact" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-purple"><b>Contact</b></h1>
     <hr style="width:50px;border:5px solid purple" class="w3-round">
-    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+    <p>Gostaste do website? Ficaste com alguma dúvida? Entra em contacto comigo! Basta preencheres o formulário a seguir.</p>
     <form action="/action_page.php" target="_blank">
       <div class="w3-section">
         <label>Name</label>
