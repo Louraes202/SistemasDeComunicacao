@@ -145,7 +145,7 @@
     <p><b>Tipos de transmissão</b>:</p>
   </div>
 
-  <!-- tipos de transmissão -->
+  <!-- IN COMO FUNCIONA tipos de transmissão -->
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
@@ -216,20 +216,101 @@
 
     <!-- Tipo de transmissão -->
     <h3 class="w3-xlarge w3-text-purple"><b>Tipo de transmissão</b></h1> 
-      <p>O tipo de transmissão utilizado pelos walkie-talkies é a <b>Half-Duplex</b>. </p>
+      <p>O tipo de transmissão utilizado pelos walkie-talkies é a <b>Half-Duplex</b>. <br>
+      Quando estamos a usar walkie-talkies, só podemos falar num canal se ninguém estiver a falar, isto
+      é, duas ou mais pessoas não podem falar ao mesmo tempo, porque o sentido da comunicação é unidirecional.
+      Se tentarmos falar enquanto alguém já estiver a falar, cancelamos a comunicação do canal, porque neste tipo 
+      de sistemas não é possível enviar mensagens ao mesmo tempo que recebemos.
+      Nos telemóveis, por exemplo, em chamada normal, o sentido da comunicação é bidirecional, isto é, é um
+      sistema full-duplex, em que podemos receber e enviar mensagens simultaneamente 
+      (neste caso falar ao mesmo tempo que ouvimos).</p>
 
-    <!--  -->
-    <h3 class="w3-xlarge w3-text-purple"><b>Transmissão por difusão e ponto a ponto.</b></h1> 
-      <p>Lorem ipsum qualquer coisa.</p>
+    <!-- Transmissão por difusão ou ponto a ponto  -->
+    <h3 class="w3-xlarge w3-text-purple"><b>Transmissão por difusão e ponto a ponto</b></h1> 
+      <p>As transmissões podem ser feitas por <b>difusão</b> (broadcast), <b>difusão seletiva</b> (multicast) ou <b>ponto a ponto</b> 
+      (peer to peer). <br>
+      Ocorre difusão quando a mensagem é simultaneamente transmitida para todos (não definidos) os recetores, 
+      e a difusão 
+      seletiva é o mesmo processo só que para um grupo de recetores previamente conhecido e identificado. No 
+      caso de trasnmissão ponto a ponto, como o nome indica, a mensagem vai apenas de um emissor específico 
+      para um recetor específico. <br> </p>
+      <p>
+      No caso dos walkie-talkies com vários canais (os mais comuns), estamos perante um caso de difusão (broadcast), onde existe um canal em 
+      que um emissor passa a informação para todos os recetores que estiverem conectados ao canal. <br> 
+      No caso de walkie-takies específicos com apenas um canal em que só walkie-talkies daquele tipo são permitidos,
+      podemos dizer que é uma difusão seletiva (multicast). <br>
+      Se existirem dois aparelhos walkie-talkies que só sejam compatíveis entre si e com mais nenhum outro 
+      dispositivo, será então uma transmissão ponto a ponto.
+
+      </p>
 
     <!--  -->
     <h3 class="w3-xlarge w3-text-purple"><b>Transmissão por baseband e broadband</b></h1> 
-      <p>Lorem ipsum qualquer coisa.</p>
+      <p><b>Este conceito não se aplica aos walkie-talkies</b>, e sim a cabos de transmissão de informação (cabos de
+        rede).
+      </p>
+      <p>
+        Resumidamente, existem dois tipos de transmissão de informação por cabo: <b>baseband</b> (banda-base)
+        e <b>broadband</b> (banda larga). 
+        <br>
+        No caso da baseband, a informação é transmitida através de um único sinal digital de dados que ocupa a capacidade
+        máxima do canal, circulando a uma frequência única pelo cabo. Este caso é comum nas redes de tipo LAN.
+        <br>
+        No caso da broadband, é possível haver a circulação de vários sinais em simultâneo, mas os mesmos têm de ser 
+        analógicos. Esta técnica é usada em alguns cabos de rede como o ADSL.
+      </p>
 
-    <!--  -->
+    <!-- Tipos de wireless -->
     <h3 class="w3-xlarge w3-text-purple"><b>Transmissão wireless</b></h1> 
-      <p>Lorem ipsum qualquer coisa.</p>
+      <p>Tudo o que se refere a transmissão wireless refere-se a três tipos de transmissão sem fios:  </p>
+      <!-- Tipos de ondas separadores -->
+      <div class="w3-row-padding w3-grayscale">
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <img src="images/ondesderadio.webp" alt="John" style="width:100%">
+            <div class="w3-container">
+              <h3>Ondas de rádio</h3>
+              <p class="w3-opacity">Ex: GPS Satélite, TV Digital, Walkie-Talkies, Rádio FM</p>
+              <p>Neste tipo de transmissão, o emissor manda a mensagem para o recetor, de modo unidirecional e
+                sem que haja resposta por parte de recetor. Resumidamente, a mensagem enviada pelo emissor é recebida
+                pelo recetor sem que haja resposta.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <img src="images/infravermelhos.jpg" alt="Jane" style="width:100%">
+            <div class="w3-container">
+              <h3>Infravermelhos</h3>
+              <p class="w3-opacity">Ex: Comandos de garagem, tv, projetores</p>
+              <p>Neste tipo de transmissão, o ponto A pode enviar uma mensagem para o ponto B, e o ponto B pode também mandar
+                uma mensagem para o ponto A, porém, a troca de mensagens entre os dois não pode ser em simultâneo, isto é, 
+                tem que haver uma transmissão de cada vez e enquanto estiver a ocorrer uma transmissão só pode ocorrer esta e
+                somente esta transmissão. Resumidamente, não podem haver transmissões entre ponto A e ponto B ao mesmo tempo.
+                Para o ponto B enviar uma mensagem, tem de esperar que o ponto A termine a sua transmissão, e vice-versa.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <img src="images/ondasderadio.webp" alt="Mike" style="width:100%">
+            <div class="w3-container">
+              <h3>Micro-ondas</h3>
+              <p class="w3-opacity">Ex: Bluetooth, WIFI, WiMAX, Radares, eletrodomésticos</p>
+              <p>Neste tipo de transmissão, podem haver transmissões em simultâneo de A para B e de B para A, ao contrário
+                do half-duplex. Resumidamente, o emissor e o recetor podem variar e podem existir várias mensagens ao
+                mesmo tempo, não sendo preciso esperar uma transmissão acabar para começar outra.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <p>
+
+      </p>
     <!--  -->
     <h3 class="w3-xlarge w3-text-purple"><b>Transmissão síncrona e assíncrona</b></h1> 
       <p>Lorem ipsum qualquer coisa.</p>
